@@ -59,7 +59,7 @@ const App = () => {
         {minted && (<p>Minted!!</p>)}
         {tokenId && (<div>
           <h1>Checkout your NFT!</h1>
-          <a href={`https://testnets.opensea.io/etherscan/goerli/${CONTRACT_ADDRESS}/${tokenId}`} target="_blank" rel="noreferrer">Opensea</a>
+          <a href={`https://testnets.opensea.io/assets/goerli/${CONTRACT_ADDRESS}/${tokenId}`} target="_blank" rel="noreferrer">Opensea</a>
         </div>)}
       </div>
     </div>
