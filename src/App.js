@@ -4,7 +4,7 @@ import { useAccount, useContract, useSigner } from 'wagmi';
 import { BigNumber } from 'ethers'
 
 import { abi } from './ABI'
-const CONTRACT_ADDRESS = '0xABb1F7CD38680191740Bd0f753342160E436d878'
+const CONTRACT_ADDRESS = '0xd9ee7b612Ed273BDF3DE9ad2AF38FD2560B9D030'
 
 const App = () => {
 
